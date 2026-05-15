@@ -1,0 +1,90 @@
+2026-04-16 11:55:10.608922+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-240]
+2026-04-16 11:55:10.618200+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-240]
+2026-04-17 11:30:36.825826+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-240]
+2026-04-17 11:30:36.858367+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-240]
+2026-04-17 14:13:36.900729+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-240]
+2026-04-17 14:13:36.914501+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-240]
+2026-04-17 14:20:11.458364+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-240]
+2026-04-17 14:20:11.523434+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-240]
+2026-04-17 16:42:50.679020+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-17 16:42:50.733666+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-17 16:50:00.426871+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-17 16:50:00.439278+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-17 23:02:04.232618+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-17 23:02:04.260062+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-17 23:19:13.038486+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-17 23:19:13.049883+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-18 00:09:07.718687+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-18 00:09:07.734952+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-18 00:49:28.339004+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-18 00:49:28.421603+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-18 16:10:50.158396+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-18 16:10:50.183890+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-18 16:13:55.959670+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-18 16:13:56.023885+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-21 11:09:33.030587+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-21 11:09:33.310876+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-21 11:43:34.440627+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-21 11:43:34.466187+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
+2026-04-21 12:19:44.110233+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room" already exists; SQL statement:
+create table room (room_id varchar(255) not null, avatar_url varchar(255), created_at timestamp(6), created_by varchar(255), description varchar(255), invite_code varchar(255), is_private boolean not null, last_message_at timestamp(6), max_members integer, name varchar(255), room_type varchar(255), primary key (room_id)) [42101-224]
+2026-04-21 12:19:44.130467+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "room_member" already exists; SQL statement:
+create table room_member (id varchar(255) not null, joined_at timestamp(6), last_read_at timestamp(6), is_muted boolean not null, role varchar(255), room_id varchar(255), user_id varchar(255), primary key (id)) [42101-224]
