@@ -1,0 +1,34 @@
+name: Mirror to ConnectHub-BackEnd Repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout service repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Push to aggregator repo
+        env:
+          PAT: ${{ secrets.MY_PAT }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PAT:-}" ]; then
+            echo "ERROR: Missing ACTIONSTOKEN_PAT secret."
+            exit 1
+          fi
+          # Configure Git identity (use your own name/email so commits show as you)
+          git config --local user.name "Yashraj-Chouhan"
+          git config --local user.email "yashrajsinghc08@gmail.com"
+          # Add aggregator remote
+          git remote add aggregator https://github.com/Yashraj-Chouhan/connecthub-backend.git
+          git config --local http.https://github.com/.extraheader "Authorization: Basic $(printf "x-access-token:%s" "$PAT" | base64 -w0)"
+          git fetch aggregator
+          # Push the entire commit history to aggregator branch
+          git push aggregator main:websocket-service --force
